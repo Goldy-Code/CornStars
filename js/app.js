@@ -124,7 +124,7 @@ const childs = document.querySelectorAll('.child')
 const searcher = document.querySelector('#searcher');
 searcher.addEventListener('input', () => {
     childs.forEach(el => {
-        if (el.innerText.toLowerCase().includes(searcher.value.trim())) {
+        if (el.innerText.toLowerCase().includes(searcher.value.trim().toLowerCase())) {
             el.classList.remove('none');
         } else {
             el.classList.add('none');
