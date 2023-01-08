@@ -144,7 +144,7 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .header {
     margin: 20px 0;
     text-align: center;
